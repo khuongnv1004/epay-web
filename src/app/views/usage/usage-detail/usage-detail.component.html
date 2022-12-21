@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="back-button">
+        <img (click)="backTo()" src="/assets-epay/icons/right-arrow.svg" alt="" >
+        <div class="back-title" (click)="backTo()">
+            Quay lại
+        </div>
+    </div>
+    <div class="usage-detail-content">
+        <div class="global-title usage-detail-title">
+            {{item.item_title}}
+        </div>
+        <div class="global-desc usage-detail-desc" *ngFor="let item of item.content;let i = index">
+            <div class="usage-detail-step">
+                <div *ngIf="i <= 8" class="circle"><span>{{i+1}}</span></div>
+                <div *ngIf="i > 8" class="circle-2"><span>{{i+1}}</span></div>
+                <div class="usage-detail-step-desc" [innerHTML]="item.desc">
+                </div>
+            </div>
+            <div class="usage-detail-image">
+                <img src="{{item.image}}" alt="">
+            </div>
+        </div>
+
+        <hr/>
+    </div>
+    
+</div>

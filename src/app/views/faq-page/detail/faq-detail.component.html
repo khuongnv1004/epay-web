@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="back-button">
+        <img (click)="backTo()" src="/assets-epay/icons/right-arrow.svg" alt="" >
+        <div class="back-title" (click)="backTo()">
+            Quay lại
+        </div>
+    </div>
+    <div class="faq-detail-content">
+        <div class="global-title faq-detail-title">
+            {{item.item_title}}
+        </div>
+        <div class="global-desc faq-detail-desc" >
+            <div *ngFor="let _item of item.content" [innerHTML] ="_item"></div>
+        </div>
+
+        <hr/>
+    </div>
+    <footer class="faq-detail-footer" *ngIf="list_item.length > 0">
+        <div class="global-title faq-detail-footer-title">
+            Câu hỏi liên quan
+        </div>
+        <ul *ngFor="let item of list_item">
+            <li class="global-text" ><a class="global-text" href="{{showDetail(item)}}">{{item.item_title}}</a></li>
+            <!-- <li class="global-text">Thời gian để Epay xác thực tài khoản là 
+                bao lâu?</li>
+            <li class="global-text">GTTT hết hạn thì có sử dụng được các tính 
+                năng giao dịch trên App?</li> -->
+        </ul>
+    </footer>
+</div>

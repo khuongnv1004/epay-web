@@ -1,0 +1,841 @@
+{
+  "FAQ": {
+    "id": "FAQ",
+    "name": "Câu hỏi thường gặp",
+    "list": [
+      {
+        "list_id": "1",
+        "title": "Chung",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "1",
+            "item_title": "Sử dụng Ví điện tử Epay có mất phí hay không? ",
+            "content": [
+              "Tại thời điểm hiện tại, Epay không thu các khoản phí: khởi tạo tài khoản, phí duy trì dịch vụ Ví điện tử Epay, phí nạp tiền, rút tiền ví điện từ Epay."
+            ]
+          },
+          {
+            "item_id": "2",
+            "list_id": "1",
+            "item_title": "Khi xóa bỏ Ứng dụng Ví điện tử Epay trên điện thoại thì tài khoản, tiền trong tài khoản và thông tin giao dịch trên Ví điện tử Epay có bị mất hay không?",
+            "content": [
+              "Việc xóa ứng dụng không ảnh hưởng đến tài khoản Ví điện tử Epay và các thông tin giao dịch khác vì toàn bộ dữ liệu đã được ghi nhận và lưu trữ trên hệ thống máy chủ.",
+              "Ngay khi khách hàng cài đặt lại ứng dụng và đăng nhập, các thông tin trong tài khoản sẽ được phục hồi như cũ."
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "2",
+        "title": "Tài khoản",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "2",
+            "item_title": "Xác thực tài khoản ví có lợi ích gì?",
+            "content": [
+              "Epay khuyến khích người dùng xác thực tài khoản và xác thực khuôn mặt. Điều này sẽ giúp:",
+              " Khẳng định người dùng là chủ sở hữu của tài khoản Ví Epay.",
+              "Tăng cường bảo mật thông tin cá nhân và thông tin giao dịch trong Ví.",
+              "Giảm thiểu gian lận, trộm cắp danh tính, hoạt động rửa tiền và các hoạt động phạm pháp khác.",
+              "Nhận thêm nhiều ưu đãi từ Epay."
+            ]
+          },
+          {
+            "item_id": "2",
+            "list_id": "2",
+            "item_title": "Thời gian để Epay xác thực tài khoản là bao lâu?",
+            "content": [
+              "Hiện nay EPAY đang sử dụng công nghệ OCR để xác thực thông tin định danh ví nên kết quả định danh sẽ có ngay khi user xác nhận các thông tin trên App, TH user có chỉnh sửa lại thông tin mà hệ thống bóc tách ra thì thông tin định danh sẽ do BQT EPAY thực hiện duyệt lại.",
+              "Thời gian BQT thực hiện duyệt kể từ lúc bạn hoàn thành việc xác nhận các thông tin tại bước Xác thực tài khoản, Ví Epay của bạn sẽ được xác thực sau chậm nhất 24h."
+            ]
+          },
+          {
+            "item_id": "3",
+            "list_id": "2",
+            "item_title": "GTTT hết hạn thì có sử dụng được các tính năng giao dịch trên App?",
+            "content": [
+              "Khi đến thời điểm GTTT hết hạn thì khách hàng phải thực hiện cập nhật lại thông tin GTTT thành công thì mới thực hiện được các GD rút/chuyển/thanh toán trên app ví điện tử."
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "3",
+        "title": "Liên kết ngân hàng",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "3",
+            "item_title": "Tại sao tôi phải liên kết ngân hàng? Liên kết tài khoản có lợi ích gì?",
+            "content": [
+              "Để tuân thủ theo Quy định của Ngân hàng Nhà nước về việc khách hàng phải thực hiện liên kết tài khoản ngân hàng khi sử dụng ví điện tử nhằm đảm bảo quyền lợi và tài sản của khách hàng khi sử dụng dịch vụ."
+            ]
+          },
+          {
+            "item_id": "2",
+            "list_id": "3",
+            "item_title": "KH có 2 số điện thoại, 1 số đã đăng ký tài khoản EPAY và đã định danh thành công và số còn lại thì chưa có tài khoản ví nhưng lại là số điện thoại đăng ký tài khoản ngân hàng, vậy KH muốn LKNH thì làm như thế nào? ",
+            "content": [
+              "KH có thể sử dụng tính năng “Thay đổi số điện thoại” để thay đổi số điện thoại đăng ký tài khoản ví. Khi đã thay đổi số điện thoại thành công thì KH có thể đăng nhập tài khoản ví bằng số điện thoại mới nhưng vẫn giữ dc trạng thái và thông tin của tài khoản ví khi đó KH có thể thực hiện liên kết ngân hàng bình thường."
+            ]
+          },
+          {
+            "item_id": "3",
+            "list_id": "3",
+            "item_title": "Tài khoản ví của khách hàng đã định danh thành công nhưng KH lại dùng loại GTTT khác để đăng ký tài khoản ngân hàng, như vậy thì KH có thể thực hiện Liên kết tài khoản ngân hàng đó với tài khoản ví của KH được không?",
+            "content": [
+              "Khách hàng vẫn có thể liên kết tài khoản ngân hàng đó với ví điện tử Epay bằng cách sử dụng tính năng LKNH sử dụng GTTT khác."
+            ]
+          },
+          {
+            "item_id": "4",
+            "list_id": "3",
+            "item_title": "Tại sao thực hiện Liên kết ngân hàng VCB nhưng lại bị lỗi \"Thông tin mà bạn đăng ký không trùng với thông tin khai báo tại ngân hàng\"?",
+            "content": [
+              "Với trường hợp trên yêu cầu Khách hàng kiểm tra lại các thông tin sau:",
+              "Loại GTTT định danh tài khoản ví và loại GTTT đăng ký tài khoản ngân hàng VCB phải cùng 1 loại và cùng thông tin, TH khác loại thì Khách hàng có thể sử dụng GTTT đã đăng ký với VCB để để LK bằng cách sử dụng [Sử dụng GTTT khác] (TH phải có GTTT để thực hiện chụp ảnh).",
+              "Số điện thoại đăng ký ví và số điện thoại đăng ký tài khoản ngân hàng VCB phải cùng 1 số.",
+              "Tài khoản Vietcombank phải được đăng ký tài khoản Vietcombank online.",
+              "Tài khoản Vietcombank đã đăng ký dịch vụ SMS Banking tại ngân hàng.",
+              "Thông tin địa chỉ phải đúng với thông tin đã khai báo tại ngân hàng.",
+              ">>>>> Thoả mãn đủ các điều kiện trên mới có thể thực hiện LK thành công."
+            ]
+          },
+          {
+            "item_id": "5",
+            "list_id": "3",
+            "item_title": "Thực hiện Liên kết VCB bằng GTTT khác và đang có trạng thái Chờ xác thực thì có thể thực hiện LKNH lại bằng GTTT đã định danh ví hay không?",
+            "content": [
+              "Khách hàng hoàn toàn có thể thực hiện liên kết lại sử dụng GTTT đã định danh ví khi GTTT để LKNH có trạng thái Chờ xác thực, Các bước thực hiện: Chọn [Liên kết ngân hàng] > Chọn \"Thay đổi thông tin\" > Chọn [Tiếp tục] để sử dụng GTTT đã định danh với tài khoản và làm tiếp theo hướng dẫn."
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "4",
+        "title": "Đổi số điện thoại",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "4",
+            "item_title": "Sau khi thay đổi Số điện thoại thành công thì các thông tin cá nhân của tài khoản ví có bị thay đổi/bị mất hay không? ",
+            "content": [
+              "Khi khách hàng thay đổi số điện thoại thành công thì các thông tin cá nhân sẽ được giữ nguyên, bao gồm:",
+              "Thông tin GTTT xác thực thành công.",
+              "Thông tin số dư ví.",
+              "Cài đặt hạn mức ngày.",
+              "Thông tin về email.",
+              "Thông tin địa chỉ hiện tại.",
+              "Các liên kết ngân hàng nội địa (LK qua Napas).",
+              "Lịch sử giao dịch của ví.",
+              "Các thông tin thay đổi bao gồm:",
+              "Liên kết ngân hàng với các ngân hàng sử dụng số điện thoại để liên kết sẽ bị hủy.",
+              "Phương thực xác thực smart OTP sẽ bị hủy.",
+              "Nạp ví tự động của liên kết bank bị hủy cũng sẽ bị hủy."
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "5",
+        "title": "Giao dịch",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "5",
+            "item_title": "Khi phát hiện giao dịch bất thường, tôi phải làm gì?",
+            "content": [
+              "Trường hợp khách hàng thấy phát sinh giao dịch mà mình không thực hiện, hoặc khách hàng đã cung cấp mã OTP và mật khẩu cho người khác, hoặc nghi ngờ người khác biết được thông tin Ví điện tử Epay của mình: Khách hàng cần ngay lập tức đổi mật khẩu và liên hệ tổng đài CSKH 19001268, bấm phím 2 để khóa khẩn cấp tài khoản của mình."
+            ]
+          },
+          {
+            "item_id": "2",
+            "list_id": "5",
+            "item_title": "Nếu không nhận được mã OTP thì phải làm thế nào?",
+            "content": [
+              "Trong trường hợp khách hàng không nhận được mã OTP trong vòng 2 phút, khách hàng có thể nhấn vào \"Gửi lại OTP\" để hệ thống gửi lại một mã OTP khác.",
+              "Trường hợp vẫn không nhận được mã OTP. Vui lòng thử lại sau một lúc, hoặc gọi đến số tổng đài CSKH 19001268."
+            ]
+          },
+          {
+            "item_id": "3",
+            "list_id": "5",
+            "item_title": "Tại sao nạp tiền vào tài khoản Ví Epay không thành công?",
+            "content": [
+              "Trường hợp trên có thể do một trong các nguyên nhân:",
+              "Tài khoản ngân hàng không hoạt động/ bị đóng băng. Vui lòng liên hệ với bộ phận CSKH của ngân hàng của bạn để kiểm tra.",
+              "Số dư trong tài khoản ngân hàng của bạn đang thấp hơn giá trị nạp tiền cộng số dư tối thiểu do ngân hàng quy định. Trong trường hợp này, bạn cần nạp thêm tiền vào tài khoản ngân hàng rồi thực hiện lại giao dịch.",
+              "Tài khoản Ví Epay của bạn vượt hạn mức nạp tiền trong ngày khi thực hiện giao dịch.",
+              "Nếu bạn không gặp phải những vấn đề trên, vui lòng liên hệ cho bộ phận CSKH và cung cấp các thông tin sau:",
+              "Nội dung: Nạp tiền từ TK ngân hàng thất bại.",
+              "Mã giao dịch (Mã TID).",
+              "Tên ngân hàng thực hiện giao dịch.",
+              "Tên chủ thẻ/chủ tài khoản ngân hàng."
+            ]
+          },
+          {
+            "item_id": "4",
+            "list_id": "5",
+            "item_title": "Tại sao rút tiền từ tài khoản Ví Epay về tài khoản ngân hàng không thành công?",
+            "content": [
+              "Trường hợp trên có thể do một trong các nguyên nhân:",
+              "Tài khoản ngân hàng không hoạt động/ bị đóng băng. Vui lòng liên hệ với bộ phận CSKH của ngân hàng của bạn để kiểm tra.",
+              "Nếu bạn không gặp phải những vấn đề trên, vui lòng liên hệ cho bộ phận CSKH và cung cấp các thông tin sau:",
+              "Tài khoản Ví Epay của bạn vượt hạn mức rút tiền trong ngày khi thực hiện giao dịch.",
+              "Nếu bạn không gặp phải những vấn đề trên, vui lòng liên hệ cho bộ phận CSKH và cung cấp các thông tin sau:",
+              "Nội dung: Rút tiền về TK ngân hàng thất bại.",
+              "Mã giao dịch (Mã TID).",
+              "Tên ngân hàng thực hiện giao dịch.",
+              "Tên chủ thẻ/chủ tài khoản ngân hàng."
+            ]
+          },
+          {
+            "item_id": "5",
+            "list_id": "5",
+            "item_title": "Nạp tiền từ ngân hàng: tài khoản ngân hàng bị trừ tiền nhưng tài khoản Epay không thay đổi? ",
+            "content": [
+              "Có thể hệ thống chưa kịp cập nhật số dư trong tài khoản Epay. Bạn hãy đăng xuất tài khoản Epay và đăng nhập lại để kiểm tra lại số dư.",
+              "Nếu vẫn chưa thấy số dư thay đổi, Epay và ngân hàng luôn tự động kiểm tra và đối soát để đảm bảo số dư của bạn được cập nhật chính xác. Tiền sẽ được hoàn lại vào tài khoản Epay hoặc tài khoản ngân hàng của bạn trong vòng 48 giờ.",
+              "Trường hợp sau 48 giờ bạn vẫn không được hoàn tiền, vui lòng liên hệ cho bộ phận CSKH theo số hotline 19001268 và cung cấp các thông tin sau:",
+              "Nội dung: TK ngân hàng trừ tiền nhưng TK Epay không đổi.",
+              "Mã giao dịch (Mã TID).",
+              "Tên ngân hàng thực hiện giao dịch.",
+              "Tên chủ thẻ/chủ tài khoản ngân hàng."
+            ]
+          },
+          {
+            "item_id": "6",
+            "list_id": "5",
+            "item_title": "Rút tiền về ngân hàng: tài khoản Epay bị trừ tiền nhưng tài khoản ngân hàng không thay đổi.",
+            "content": [
+              "Epay và ngân hàng luôn tự động kiểm tra và đối soát để đảm bảo số dư của bạn được cập nhật chính xác. Với trường hợp này, tiền sẽ được hoàn lại vào tài khoản Epay hoặc tài khoản ngân hàng của bạn trong vòng 48 giờ.Trường hợp sau 48 giờ bạn vẫn không được hoàn tiền, vui lòng liên hệ cho bộ phận CSKH theo số hotline 19001268 và cung cấp các thông tin sau:",
+              "Nội dung: TK Epay trừ tiền nhưng TK ngân hàng không đổi.",
+              "Mã giao dịch (Mã TID).",
+              "Tên ngân hàng thực hiện giao dịch.",
+              "Tên chủ thẻ/chủ tài khoản ngân hàng."
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "6",
+        "title": "Khuyễn mãi",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "6",
+            "item_title": "Làm thế nào để nhận được khuyến mãi từ Epay? ",
+            "content": [
+              "Các chương trình khuyến mãi của Ví điện tử Epay đều được hiển thị tại mục khuyến mãi trong tính năng thông báo trên ứng dụng Epay. KH vui lòng mở mục Khuyến mãi trong tính năng thông báo để xem các thông tin liên quan đến các chương trình khuyến mãi."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "USAGE": {
+    "id": "USAGE",
+    "name": "Hướng dẫn sử dụng ví Epay",
+    "list": [
+      {
+        "list_id": "1",
+        "title": "Tài khoản",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "1",
+            "item_title": "Đăng ký tài khoản",
+            "content": [
+              {
+                "desc": "Tại màn hình đăng ký tài khoản nhập số điện thoại, chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/dktk/dktk1.png"
+              },
+              {
+                "desc": "Nhập OTP",
+                "image": "/assets-epay/images/dktk/dktk2.png"
+              },
+              {
+                "desc": "Nhập mật khẩu mới",
+                "image": "/assets-epay/images/dktk/dktk3.png"
+              }
+              ,
+              {
+                "desc": "Nhập Họ và tên",
+                "image": "/assets-epay/images/dktk/dktk4.png"
+              },
+              {
+                "desc": "Tạo tài khoản thành công",
+                "image": "/assets-epay/images/dktk/dktk5.png"
+              }
+            ]
+          },
+          {
+            "item_id": "2",
+            "list_id": "1",
+            "item_title": "Định danh tài khoản",
+            "content": [
+              {
+                "desc": "Chọn <b>Định danh ngay</b> tại màn hình Cá nhân",
+                "image": "/assets-epay/images/ddtk/ddtk1.png"
+              },
+              {
+                "desc": "Chọn loại Giấy tờ tuỳ thân",
+                "image": "/assets-epay/images/ddtk/ddtk2.png"
+              },
+              {
+                "desc": "Chọn chụp ảnh mặt trước",
+                "image": "/assets-epay/images/ddtk/ddtk3.png"
+              },
+              {
+                "desc": "Chụp ảnh mặt trước",
+                "image": "/assets-epay/images/ddtk/ddtk4.png"
+              },
+              {
+                "desc": "Chọn <b>Hoàn thành</b>",
+                "image": "/assets-epay/images/ddtk/ddtk5.png"
+              },
+              {
+                "desc": "Chụp ảnh mặt sau",
+                "image": "/assets-epay/images/ddtk/ddtk6.png"
+              },
+              {
+                "desc": "Chọn <b>Hoàn thành</b>",
+                "image": "/assets-epay/images/ddtk/ddtk7.png"
+              },
+              {
+                "desc": "Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/ddtk/ddtk8.png"
+              },
+              {
+                "desc": ". Chọn chụp ảnh chân dung",
+                "image": "/assets-epay/images/ddtk/ddtk9.png"
+              },
+              {
+                "desc": "Hướng máy ảnh vào mặt",
+                "image": "/assets-epay/images/ddtk/ddtk10.png"
+              },
+              {
+                "desc": "Nhập các thông tin còn thiếu, chọn <b>Cập nhật thông tin</b>",
+                "image": "/assets-epay/images/ddtk/ddtk11.png"
+              },
+              {
+                "desc": "Hoàn thành xác thực tài khoản",
+                "image": "/assets-epay/images/ddtk/ddtk12.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "2",
+        "title": "Smart OTP",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "2",
+            "item_title": "Kích hoạt SmartOTP",
+            "content": [
+              {
+                "desc": "Chọn <b>Cài đặt Smart OTP</b> tại màn hình Tài khoản",
+                "image": "/assets-epay/images/otp/otp1.png"
+              },
+              {
+                "desc": "Chọn <B>Kích hoạt</b>",
+                "image": "/assets-epay/images/otp/otp2.png"
+              },
+              {
+                "desc": "Nhập mật khẩu Ví, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/otp/otp3.png"
+              },
+              {
+                "desc": "Nhập OTP",
+                "image": "/assets-epay/images/otp/otp4.png"
+              },
+              {
+                "desc": "Tạo mật khẩu Smart OTP",
+                "image": "/assets-epay/images/otp/otp5.png"
+              },
+              {
+                "desc": "Nhập lại mật khẩu Smart OTP",
+                "image": "/assets-epay/images/otp/otp6.png"
+              },
+              {
+                "desc": "Hoàn thành kích hoạt Smart OTP",
+                "image": "/assets-epay/images/otp/otp7.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "3",
+        "title": "Liên kết ngân hàng",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "3",
+            "item_title": "Liên kết ngân hàng liên kết trực tiếp",
+            "content":  [
+              {
+                "desc": "Chọn <b>Liên kết ngân hàng để thực hiện các giao dịch</b> ở màn hình Trang chủ",
+                "image": "/assets-epay/images/lktt/lktt1.png"
+              },
+              {
+                "desc": "Chọn Vietcombank",
+                "image": "/assets-epay/images/lktt/lktt2.png"
+              },
+              {
+                "desc": "Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/lktt/lktt3.png"
+              },
+              {
+                "desc": "Nhập số tài khoản, Chọn <b>Liên kết</b>",
+                "image": "/assets-epay/images/lktt/lktt4.png"
+              },
+              {
+                "desc": "Nhập địa chỉ khai báo tại ngân hàng, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/lktt/lktt5.png"
+              },
+              {
+                "desc": "Chọn <b>Liên kết</b>",
+                "image": "/assets-epay/images/lktt/lktt6.png"
+              },
+              {
+                "desc": "Nhập OTP",
+                "image": "/assets-epay/images/lktt/lktt7.png"
+              },
+              {
+                "desc": "Liên kết ngân hàng thành công",
+                "image": "/assets-epay/images/lktt/lktt8.png"
+              }
+            ]
+          },
+          {
+            "item_id": "2",
+            "list_id": "3",
+            "item_title": "Liên kết ngân hàng nội địa",
+            "content": [
+              {
+                "desc": "Chọn <b>Thêm ngân hàng liên kết</b> tại màn hình tài khoản",
+                "image": "/assets-epay/images/lknd/lknd1.png"
+              },
+              {
+                "desc": "Chọn một ngân hàng nội địa",
+                "image": "/assets-epay/images/lknd/lknd2.png"
+              },
+              {
+                "desc": "Nhập số thẻ, ngày phát hành, chọn <b>Liên kết</b>",
+                "image": "/assets-epay/images/lknd/lknd3.png"
+              },
+              {
+                "desc": "Chọn <b>Liên kết</b>",
+                "image": "/assets-epay/images/lknd/lknd4.png"
+              },
+              {
+                "desc": "Nhập mã OTP ngân hàng gửi, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/lknd/lknd5.png"
+              },
+              {
+                "desc": "Liên kết ngân hàng thành công",
+                "image": "/assets-epay/images/lknd/lknd6.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "4",
+        "title": "Nạp tiền",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "4",
+            "item_title": "Nạp tiền qua ngân hàng liên kết trực tiếp",
+            "content": [
+              {
+                "desc": "Chọn <b>Nạp tiền</b> tại màn hình trang chủ",
+                "image": "/assets-epay/images/ntqnhlk/ntqnhlk1.png"
+              },
+              {
+                "desc": "Nhập số tiền và nguồn tiền, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/ntqnhlk/ntqnhlk2.png"
+              },
+              {
+                "desc": "Chọn <b>Nạp tiền</b>",
+                "image": "/assets-epay/images/ntqnhlk/ntqnhlk3.png"
+              },
+              {
+                "desc": "Nhập mật khẩu Smart OTP",
+                "image": "/assets-epay/images/ntqnhlk/ntqnhlk4.png"
+              },
+              {
+                "desc": "Chọn <b>Xác nhận</b>",
+                "image": "/assets-epay/images/ntqnhlk/ntqnhlk5.png"
+              },
+              {
+                "desc": "Nạp tiền thành công",
+                "image": "/assets-epay/images/ntqnhlk/ntqnhlk6.png"
+              }
+            ]
+          },
+          {
+            "item_id": "2",
+            "list_id": "4",
+            "item_title": "Nạp tiền qua ngân hàng nội địa",
+            "content": [
+              {
+                "desc": "Chọn <b>Nạp tiền</b> tại màn hình trang chủ",
+                "image": "/assets-epay/images/ntqnhnd/ntqnhnd1.png"
+              },
+              {
+                "desc": "Nhập số tiền và nguồn tiền, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/ntqnhnd/ntqnhnd2.png"
+              },
+              {
+                "desc": "Chọn <b>Nạp tiền</b>",
+                "image": "/assets-epay/images/ntqnhnd/ntqnhnd3.png"
+              },
+              {
+                "desc": "Nhập mã OTP ngân hàng gửi, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/ntqnhnd/ntqnhnd4.png"
+              },
+              {
+                "desc": "Nạp tiền thành công",
+                "image": "/assets-epay/images/ntqnhnd/ntqnhnd5.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "5",
+        "title": "Rút tiền",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "5",
+            "item_title": "Rút tiền về ngân hàng liên kiết trực tiếp",
+            "content": [
+              {
+                "desc": "Chọn <b>Rút tiền</b> tại màn hình Trang chủ",
+                "image": "/assets-epay/images/rtqnhlk/rtqnhlk1.png"
+              },
+              {
+                "desc": "Nhập số tiền và nguồn tiền, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/rtqnhlk/rtqnhlk2.png"
+              },
+              {
+                "desc": "Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/rtqnhlk/rtqnhlk3.png"
+              },
+              {
+                "desc": "Nhập mật khẩu Smart OTP",
+                "image": "/assets-epay/images/rtqnhlk/rtqnhlk4.png"
+              },
+              {
+                "desc": "Chọn <b>Xác nhận</b>",
+                "image": "/assets-epay/images/rtqnhlk/rtqnhlk5.png"
+              },
+              {
+                "desc": "Rút tiền thành công",
+                "image": "/assets-epay/images/rtqnhlk/rtqnhlk6.png"
+              }
+            ]
+          },
+          {
+            "item_id": "2",
+            "list_id": "5",
+            "item_title": "Rút tiền về ngân hàng nội địa",
+            "content": [
+              {
+                "desc": "Chọn <b>Rút tiền</b> tại màn hình Trang chủ",
+                "image": "/assets-epay/images/rtqnhnd/rtqnhnd1.png"
+              },
+              {
+                "desc": "Nhập số tiền và nguồn tiền, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/rtqnhnd/rtqnhnd2.png"
+              },
+              {
+                "desc": "Chọn <b>Rút tiền</b>",
+                "image": "/assets-epay/images/rtqnhnd/rtqnhnd3.png"
+              },
+              {
+                "desc": "Nhập số thẻ, ngày phát hành, chọn <b>Rút tiền</b>",
+                "image": "/assets-epay/images/rtqnhnd/rtqnhnd4.png"
+              },
+              {
+                "desc": "Nhập mật khẩu SmartOTP",
+                "image": "/assets-epay/images/rtqnhnd/rtqnhnd5.png"
+              },
+              {
+                "desc": "Chọn <b>Xác nhận</b>",
+                "image": "/assets-epay/images/rtqnhnd/rtqnhnd6.png"
+              },
+              {
+                "desc": "Rút tiền thành công",
+                "image": "/assets-epay/images/rtqnhnd/rtqnhnd7.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "6",
+        "title": "Chuyển tiền",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "6",
+            "item_title": "Chuyển tiền qua số dư ví",
+            "content": [
+              {
+                "desc": "Chọn <b>Chuyển tiền</b> tại màn hình Trang chủ",
+                "image": "/assets-epay/images/ctqsdv/ctqsdv1.png"
+              },
+              {
+                "desc": "Nhập hoặc chọn người nhận",
+                "image": "/assets-epay/images/ctqsdv/ctqsdv2.png"
+              },
+              {
+                "desc": "Nhập số tiền và nguồn tiền, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/ctqsdv/ctqsdv3.png"
+              },
+              {
+                "desc": "Chọn <b>Chuyển tiền</b>",
+                "image": "/assets-epay/images/ctqsdv/ctqsdv4.png"
+              },
+              {
+                "desc": "Nhập mật khẩu SmartOTP",
+                "image": "/assets-epay/images/ctqsdv/ctqsdv5.png"
+              },
+              {
+                "desc": "Chọn <b>Xác nhận</b>",
+                "image": "/assets-epay/images/ctqsdv/ctqsdv6.png"
+              },
+              {
+                "desc": "Chuyển tiền thành công",
+                "image": "/assets-epay/images/ctqsdv/ctqsdv7.png"
+              }
+            ]
+          },
+          {
+            "item_id": "2",
+            "list_id": "6",
+            "item_title": "Chuyển tiền qua ngân hàng liên kết trực tiếp",
+            "content": [
+              {
+                "desc": "Chọn <b>Chuyển tiền</b> tại màn hình Trang chủ",
+                "image": "/assets-epay/images/ctqnhlk/ctqnhlk1.png"
+              },
+              {
+                "desc": "Nhập hoặc chọn người nhận",
+                "image": "/assets-epay/images/ctqnhlk/ctqnhlk2.png"
+              },
+              {
+                "desc": "Nhập số tiền và nguồn tiền, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/ctqnhlk/ctqnhlk3.png"
+              },
+              {
+                "desc": "Chọn <b>Chuyển tiền</b>",
+                "image": "/assets-epay/images/ctqnhlk/ctqnhlk4.png"
+              },
+              {
+                "desc": "Nhập mật khẩu SmartOTP",
+                "image": "/assets-epay/images/ctqnhlk/ctqnhlk5.png"
+              },
+              {
+                "desc": "Chọn <b>Xác nhận</b>",
+                "image": "/assets-epay/images/ctqnhlk/ctqnhlk6.png"
+              },
+              {
+                "desc": "Chuyển tiền thành công",
+                "image": "/assets-epay/images/ctqnhlk/ctqnhlk7.png"
+              }
+            ]
+          },
+          {
+            "item_id": "3",
+            "list_id": "6",
+            "item_title": "Chuyển tiền qua ngân hàng nội địa",
+            "content": [
+              {
+                "desc": "Chọn <b>Chuyển tiền</b> tại màn hình Trang chủ",
+                "image": "/assets-epay/images/ctqnhnd/ctqnhnd1.png"
+              },
+              {
+                "desc": "Nhập hoặc chọn người nhận",
+                "image": "/assets-epay/images/ctqnhnd/ctqnhnd2.png"
+              },
+              {
+                "desc": "Nhập số tiền và nguồn tiền, Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/ctqnhnd/ctqnhnd3.png"
+              },
+              {
+                "desc": "Chọn <b>Chuyển tiền</b>",
+                "image": "/assets-epay/images/ctqnhnd/ctqnhnd4.png"
+              },
+              {
+                "desc": "Nhập mã OTP ngân hàng gửi, chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/ctqnhnd/ctqnhnd5.png"
+              },
+              {
+                "desc": "Chuyển tiền thành công",
+                "image": "/assets-epay/images/ctqnhnd/ctqnhnd6.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "7",
+        "title": "Thanh toán QR Pay",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "7",
+            "item_title": "Thanh toán QR Pay qua số dư ví",
+            "content": [
+              {
+                "desc": "Tại màn hình Trang chủ chọn <b>QR</b>",
+                "image": "/assets-epay/images/ttqsdv/ttqsdv1.png"
+              },
+              {
+                "desc": "Hướng điện thoại về hướng QR",
+                "image": "/assets-epay/images/ttqsdv/ttqsdv2.png"
+              },
+              {
+                "desc": "Chọn <b>Thanh toán</b>",
+                "image": "/assets-epay/images/ttqsdv/ttqsdv3.png"
+              },
+              {
+                "desc": "Nhập mật khẩu Smart OTP",
+                "image": "/assets-epay/images/ttqsdv/ttqsdv4.png"
+              },
+              {
+                "desc": "Chọn <b>Xác nhận</b>",
+                "image": "/assets-epay/images/ttqsdv/ttqsdv5.png"
+              },
+              {
+                "desc": "Thanh toán thành công",
+                "image": "/assets-epay/images/ttqsdv/ttqsdv6.png"
+              }
+            ]
+          },
+          {
+            "item_id": "2",
+            "list_id": "7",
+            "item_title": "Thanh toán QR Pay qua ngân hàng liên kết trực tiếp",
+            "content": [
+              {
+                "desc": "Tại màn hình Trang chủ chọn <b>QR</b>",
+                "image": "/assets-epay/images/ttqnhlk/ttqnhlk1.png"
+              },
+              {
+                "desc": "Hướng điện thoại về hướng QR",
+                "image": "/assets-epay/images/ttqnhlk/ttqnhlk2.png"
+              },
+              {
+                "desc": "Chọn <b>Thay đổi nguồn tiền</b>",
+                "image": "/assets-epay/images/ttqnhlk/ttqnhlk3.png"
+              },
+              {
+                "desc": "Chọn nguồn tiền là Vietcombank ",
+                "image": "/assets-epay/images/ttqnhlk/ttqnhlk4.png"
+              },
+              {
+                "desc": "Chọn <b>Thanh toán</b>",
+                "image": "/assets-epay/images/ttqnhlk/ttqnhlk5.png"
+              },
+              {
+                "desc": "Nhập mật khẩu Smart OTP",
+                "image": "/assets-epay/images/ttqnhlk/ttqnhlk6.png"
+              },
+              {
+                "desc": "Chọn <b>Xác nhận</b>",
+                "image": "/assets-epay/images/ttqnhlk/ttqnhlk7.png"
+              },
+              {
+                "desc": "Thanh toán thành công",
+                "image": "/assets-epay/images/ttqnhlk/ttqnhlk8.png"
+              }
+            ]
+          },
+          {
+            "item_id": "3",
+            "list_id": "7",
+            "item_title": "Thanh toán QR Pay qua ngân hàng nội địa",
+            "content": [
+              {
+                "desc": "Tại màn hình Trang chủ chọn <b>QR</b>",
+                "image": "/assets-epay/images/ttqnhnd/ttqnhnd1.png"
+              },
+              {
+                "desc": "Hướng điện thoại về hướng QR",
+                "image": "/assets-epay/images/ttqnhnd/ttqnhnd2.png"
+              },
+              {
+                "desc": "Chọn <b>Thay đổi nguồn tiền</b>",
+                "image": "/assets-epay/images/ttqnhnd/ttqnhnd3.png"
+              },
+              {
+                "desc": "Chọn nguồn tiền ",
+                "image": "/assets-epay/images/ttqnhnd/ttqnhnd4.png"
+              },
+              {
+                "desc": "Chọn [Thanh toán]",
+                "image": "/assets-epay/images/ttqnhnd/ttqnhnd5.png"
+              },
+              {
+                "desc": "Nhập mã OTP ngân hàng gửi, chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/ttqnhnd/ttqnhnd6.png"
+              },
+              {
+                "desc": "Thanh toán thành công",
+                "image": "/assets-epay/images/ttqnhnd/ttqnhnd7.png"
+              }       
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "8",
+        "title": "Nạp tiền điện thoại",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "8",
+            "item_title": "Nạp tiền điện thoại",
+            "content": [
+              {
+                "desc": "Chọn <b>Nạp tiền điện thoại</b> tại màn hình Trang chủ",
+                "image": "/assets-epay/images/ntdt/ntdt1.png"
+              },
+              {
+                "desc": "Chọn số điện thoại muốn nạp thẻ, nhà mạng và mệnh giá. Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/ntdt/ntdt2.png"
+              },
+              {
+                "desc": "Chọn <b>Thanh toán</b>",
+                "image": "/assets-epay/images/ntdt/ntdt3.png"
+              },
+              {
+                "desc": "Nhập mật khẩu Smart OTP",
+                "image": "/assets-epay/images/ntdt/ntdt4.png"
+              },
+              {
+                "desc": "Chọn <b>Xác nhận</b>",
+                "image": "/assets-epay/images/ntdt/ntdt5.png"
+              },
+              {
+                "desc": "Thanh toán thành công",
+                "image": "/assets-epay/images/ntdt/ntdt6.png"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+.container {
+  // max-width: 390px;
+  width: 100%;
+  margin: 0 0;
+}
+
+.global-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3645cf;
+}
+
+.global-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.global-heading {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.global-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: none;
+  }
+}

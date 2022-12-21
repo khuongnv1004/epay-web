@@ -1,0 +1,27 @@
+<div class="container">
+    <header class="global-heading usage-heading">
+        Hướng dẫn sử dụng ví Epay
+    </header>
+    <div class="usage-content">
+        <div class="usage-content-item" *ngFor="let list_item of list_title">
+            <div class=" usage-content-title" (click)="toggleAccount(list_item.list_id)">
+                <img *ngIf="!isShowing.includes(list_item.list_id)" class="usage-content-plus"
+                    src="/assets-epay/icons/plus.svg" alt="">
+                <img *ngIf="isShowing.includes(list_item.list_id)" class="usage-content-plus"
+                    src="/assets-epay/icons/minus.svg" alt="">
+                <h4 class="global-title usage-content-item-title">
+                    {{list_item.title}}
+                </h4>
+            </div>
+            <div *ngIf="isShowing.includes(list_item.list_id) " class="usage-content-item-list">
+                <ul *ngFor="let item of list_item.item">
+                    <li class="global-text" [routerLink]="showDetail(item)" >{{item.item_title}}</li>
+                    <!-- <li class="global-text">Thời gian để Epay xác thực tài khoản là 
+                        bao lâu?</li>
+                    <li class="global-text">GTTT hết hạn thì có sử dụng được các tính 
+                        năng giao dịch trên App?</li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

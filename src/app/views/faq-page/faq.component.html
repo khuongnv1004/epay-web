@@ -1,0 +1,42 @@
+<div class="container">
+    <header class="global-heading faq-heading">
+        Xin chào, Bạn cần giúp gì ?
+    </header>
+    <div class="search-input">
+        <div class="form-group has-search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input type="text" class="form-control" (keyup)="filterAsk($event)"
+                (focusout)="hideList()"  placeholder="Tìm kiếm vấn đề của bạn tại đây">
+        </div>
+        <div *ngIf="showListAsk" class="listAsk">
+            <p class="listAskItem" *ngFor="let item of ask">
+                <a href="{{redirectAsk(item)}}">{{ item.item_title }}</a>
+            </p>
+            <p class="listAskItem" *ngIf="ask.length == 0">
+                Không tìm thấy dữ liệu
+            </p>
+        </div>
+    </div>
+    <div class="faq-content">
+        <div class="faq-content-item" *ngFor="let list_item of list_title">
+            <div class=" faq-content-title" (click)="toggleAccount(list_item.list_id)">
+                <img *ngIf="!isShowing.includes(list_item.list_id)" class="faq-content-plus"
+                    src="/assets-epay/icons/plus.svg" alt="">
+                <img *ngIf="isShowing.includes(list_item.list_id)" class="faq-content-plus"
+                    src="/assets-epay/icons/minus.svg" alt="">
+                <h4 class="global-title faq-content-item-title">
+                    {{list_item.title}}
+                </h4>
+            </div>
+            <div *ngIf="isShowing.includes(list_item.list_id) " class="faq-content-item-list">
+                <ul *ngFor="let item of list_item.item">
+                    <li class="global-text" [routerLink]="showDetail(item)">{{item.item_title}}</li>
+                    <!-- <li class="global-text">Thời gian để Epay xác thực tài khoản là 
+                        bao lâu?</li>
+                    <li class="global-text">GTTT hết hạn thì có sử dụng được các tính 
+                        năng giao dịch trên App?</li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

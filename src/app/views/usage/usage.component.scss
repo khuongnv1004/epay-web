@@ -1,0 +1,39 @@
+.usage-content {
+  padding-top: 20px;
+
+  &-item {
+    margin-bottom: 34px;
+  }
+
+  &-title {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    height: 18px;
+  }
+
+  &-item-title {
+  }
+
+  &-item-list {
+    padding-left: 52px;
+    padding-top: 22px;
+  }
+}
+
+.usage-heading {
+  margin-top: 46px;
+  margin-bottom: 22px;
+}
+
+ul {
+  > li {
+    margin-bottom: 20px;
+  }
+}
+
+h4 {
+  margin: 0px;
+}
+
+

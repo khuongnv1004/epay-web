@@ -1,0 +1,80 @@
+.faq-content {
+  padding-top: 20px;
+
+  &-item {
+    margin-bottom: 34px;
+  }
+
+  &-title {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    height: 18px;
+  }
+
+  &-item-title {
+  }
+
+  &-item-list {
+    padding-left: 52px;
+    padding-top: 22px;
+  }
+}
+
+.faq-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  > li {
+    margin-bottom: 20px;
+  }
+}
+
+h4 {
+  margin: 0px;
+}
+
+.search-input {
+  width: 335px;
+  height: 44px;
+  position: relative;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  font-size: 14px;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #010101;
+  border-color: rgba(232, 232, 232, 1);
+}
+
+.listAsk {
+  position: absolute;
+  background-color: white;
+  max-height: 200px;
+  width: 100%;
+  top: 100%;
+  left: 0px;
+  z-index: 99999;
+  box-shadow: 0px 0px 2px #ccc;
+  overflow: auto;
+}
+
+.listAskItem {
+  margin-bottom: 10px;
+  line-height: 23px;
+  padding: 0px 15px;
+  padding-top: 10px;
+}
