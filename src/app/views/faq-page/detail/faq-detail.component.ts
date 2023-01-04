@@ -26,7 +26,6 @@ export class FAQDetailComponent implements OnInit{
     this.items = data.FAQ.list.filter((item) => item.list_id == this.list_id)[0].item;
     this.item = this.items.filter((item:any) => item.item_id == this.id)[0];
     this.list_item = this.items.filter((item: any)=> item.item_id != this.id)
-    console.log(this.list_item);
     
   }
 

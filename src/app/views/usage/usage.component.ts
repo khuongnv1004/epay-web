@@ -26,7 +26,6 @@ export class UsageComponent implements OnInit {
       .forEach((item: any) => {
         item.forEach((_item: any) => this.ask_list.push(_item));
       });
-    console.log(this.ask_list);
     this.list_title = data.USAGE.list;
   }
 
@@ -53,14 +52,14 @@ export class UsageComponent implements OnInit {
     return `detail/${list_id}/${id}`;
   }
 
-  filterAsk(event: any) {
-    const keyword = event.target.value.trim().toLowerCase();
-    event.stopPropagation();
-    this.showListAsk = true;
-    this.ask = this.ask_list.filter((item: any) => {
-      return item.item_title.toLowerCase().includes(keyword);
-    });
-  }
+  // filterAsk(event: any) {
+  //   const keyword = event.target.value.trim().toLowerCase();
+  //   event.stopPropagation();
+  //   this.showListAsk = true;
+  //   this.ask = this.ask_list.filter((item: any) => {
+  //     return item.item_title.toLowerCase().includes(keyword);
+  //   });
+  // }
 
   redirectAsk(item: any) {
     return `usage/detail/${item.list_id}/${item.item_id}`;

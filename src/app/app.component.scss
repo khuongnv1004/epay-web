@@ -5,6 +5,9 @@
 .header{
     width: 100%;
     // max-width: 390px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
     display: flex;
     align-items: center;
     height: 50px;

@@ -26,7 +26,6 @@ export class FAQComponent implements OnInit {
       .forEach((item: any) => {
         item.forEach((_item: any) => this.ask_list.push(_item));
       });
-    console.log(this.ask_list);
     this.list_title = data.FAQ.list;
   }
 
@@ -53,13 +52,29 @@ export class FAQComponent implements OnInit {
     return `detail/${list_id}/${id}`;
   }
 
-  filterAsk(event: any) {
-    const keyword = event.target.value.trim().toLowerCase();
-    event.stopPropagation();
-    this.showListAsk = true;
+  findAsk(keyword:string){
+    if(keyword == ''){
+      this.showListAsk = false;
+    } else{
+      this.showListAsk = true;
     this.ask = this.ask_list.filter((item: any) => {
       return item.item_title.toLowerCase().includes(keyword);
     });
+    }
+  }
+
+  filterAsk(event: any) {
+    const keyword = event.target.value.trim().toLowerCase();
+    event.stopPropagation();
+    this.findAsk(keyword)
+    
+  }
+
+  onPaste(event: ClipboardEvent | any) {
+    let clipboardData = event.clipboardData;
+    let pastedText = clipboardData.getData('text');
+    this.findAsk(pastedText);
+    
   }
 
   redirectAsk(item: any) {

@@ -6,6 +6,8 @@
 .back-button {
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 50px;
   gap: 0 10px;
   height: 50px;
   padding-left: 18px;
