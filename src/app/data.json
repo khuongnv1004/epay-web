@@ -123,17 +123,17 @@
             "item_title": "Sau khi thay đổi Số điện thoại thành công thì các thông tin cá nhân của tài khoản ví có bị thay đổi/bị mất hay không? ",
             "content": [
               "Khi khách hàng thay đổi số điện thoại thành công thì các thông tin cá nhân sẽ được giữ nguyên, bao gồm:",
-              "Thông tin GTTT xác thực thành công.",
-              "Thông tin số dư ví.",
-              "Cài đặt hạn mức ngày.",
-              "Thông tin về email.",
-              "Thông tin địa chỉ hiện tại.",
-              "Các liên kết ngân hàng nội địa (LK qua Napas).",
-              "Lịch sử giao dịch của ví.",
-              "Các thông tin thay đổi bao gồm:",
-              "Liên kết ngân hàng với các ngân hàng sử dụng số điện thoại để liên kết sẽ bị hủy.",
-              "Phương thực xác thực smart OTP sẽ bị hủy.",
-              "Nạp ví tự động của liên kết bank bị hủy cũng sẽ bị hủy."
+              "- Thông tin GTTT xác thực thành công.",
+              "- Thông tin số dư ví.",
+              "- Cài đặt hạn mức ngày.",
+              "- Thông tin về email.",
+              "- Thông tin địa chỉ hiện tại.",
+              "- Các liên kết ngân hàng nội địa (LK qua Napas).",
+              "- Lịch sử giao dịch của ví.",
+              "- Các thông tin thay đổi bao gồm:",
+              "- Liên kết ngân hàng với các ngân hàng sử dụng số điện thoại để liên kết sẽ bị hủy.",
+              "- Phương thực xác thực smart OTP sẽ bị hủy.",
+              "- Nạp ví tự động của liên kết bank bị hủy cũng sẽ bị hủy."
             ]
           }
         ]
