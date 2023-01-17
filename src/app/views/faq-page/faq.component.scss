@@ -1,3 +1,4 @@
+
 .faq-content {
   padding-top: 20px;
 
@@ -42,6 +43,7 @@ h4 {
   height: 44px;
   position: relative;
   margin: 0px auto;
+  z-index: -1;
   // display: flex;
   // justify-content: center;
 }
@@ -53,7 +55,7 @@ h4 {
 
 .has-search .form-control-feedback {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   display: block;
   width: 2.375rem;
   height: 2.375rem;
@@ -81,4 +83,17 @@ h4 {
   line-height: 23px;
   padding: 0px 15px;
   padding-top: 10px;
+}
+
+@media screen and (max-width: 375px) {
+  .search-input{
+    width: unset;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .search-input{
+    margin: 0;
+    padding-right: 10px;
+  }
 }
