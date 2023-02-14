@@ -5,8 +5,8 @@
     <div class="search-input">
         <div class="form-group has-search">
             <span class="fa fa-search form-control-feedback"></span>
-            <input type="text" class="form-control" (keyup)="filterAsk($event)" (paste)="onPaste($event)"
-                (focusout)="hideList()"  placeholder="Tìm kiếm vấn đề của bạn tại đây">
+            <input type="text" class="form-control" (keyup)="filterAsk($event)" (input)="filterAsk($event)" 
+                (focusout)="hideList()" (focus)="filterAsk($event)" placeholder="Tìm kiếm vấn đề của bạn tại đây">
         </div>
         <div *ngIf="showListAsk" class="listAsk">
             <p class="listAskItem" *ngFor="let item of ask">

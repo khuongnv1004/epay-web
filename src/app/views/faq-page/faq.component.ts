@@ -84,7 +84,7 @@ export class FAQComponent implements OnInit {
   hideList() {
     setTimeout(() => {
       this.showListAsk = false;
-    },100);
+    },300);
   }
 
   setSearch(){
