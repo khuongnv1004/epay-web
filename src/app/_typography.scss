@@ -5,6 +5,12 @@
     src: url("../assets-epay/fonts/Averta-Regular.otf") format("opentype");
 }
 
+@font-face {
+    font-family: Averta;
+    font-weight: 700;
+    src: url("../assets-epay/fonts/Averta-Bold.otf") format("opentype");
+}
+
 * {
     font-size: 16px;
     line-height: 1;

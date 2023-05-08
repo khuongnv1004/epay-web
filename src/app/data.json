@@ -274,7 +274,7 @@
           {
             "item_id": "2",
             "list_id": "1",
-            "item_title": "Định danh tài khoản",
+            "item_title": "Định danh tài khoản ví bằng phương thức EKYC",
             "content": [
               {
                 "desc": "Chọn <b>Định danh ngay</b> tại màn hình Cá nhân",
@@ -323,6 +323,49 @@
               {
                 "desc": "Hoàn thành xác thực tài khoản",
                 "image": "/assets-epay/images/ddtk/ddtk12.png"
+              }
+            ]
+          },
+          {
+            "item_id": "3",
+            "list_id": "1",
+            "item_title": "Định danh tài khoản ví bằng phương thức NFC",
+            "content": [
+              {
+                "desc": "Chọn <b>Định danh ngay</b> tại màn hình Cá nhân",
+                "image": "/assets-epay/images/ddtkNFC/ddtkNFC1.png"
+              },
+              {
+                "desc": "Chọn loại Giấy tờ tùy thân là CCCD gắn chip",
+                "image": "/assets-epay/images/ddtkNFC/ddtkNFC2.png"
+              },
+              {
+                "desc": "Chọn <b>Đã hiểu</b>",
+                "image": "/assets-epay/images/ddtkNFC/ddtkNFC3.png"
+              },
+              {
+                "desc": "Thực hiện San mặt sau của CCCD gắn chip",
+                "image": "/assets-epay/images/ddtkNFC/ddtkNFC4.png"
+              },
+              {
+                "desc": "Chọn <b>Đã hiểu</b>",
+                "image": "/assets-epay/images/ddtkNFC/ddtkNFC5.png"
+              },
+              {
+                "desc": "Thực hiện tap CCCD gắn chip",
+                "image": "/assets-epay/images/ddtkNFC/ddtkNFC6.png"
+              },
+              {
+                "desc": "Thực hiện chụp ảnh chân dung",
+                "image": "/assets-epay/images/ddtkNFC/ddtkNFC7.png"
+              },
+              {
+                "desc": "Nhập các thông tin còn thiếu, chọn <b>Cập nhật thông tin</b> > Định danh tài khoản thành công",
+                "image": "/assets-epay/images/ddtkNFC/ddtkNFC8.png"
+              },
+              {
+                "desc": "Hoàn thành xác thực tài khoản",
+                "image": "/assets-epay/images/ddtkNFC/ddtkNFC9.png"
               }
             ]
           }
