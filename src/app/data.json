@@ -259,8 +259,7 @@
               {
                 "desc": "Nhập mật khẩu mới",
                 "image": "/assets-epay/images/dktk/dktk3.png"
-              }
-              ,
+              },
               {
                 "desc": "Nhập Họ và tên",
                 "image": "/assets-epay/images/dktk/dktk4.png"
@@ -420,7 +419,7 @@
             "item_id": "1",
             "list_id": "3",
             "item_title": "Liên kết ngân hàng liên kết trực tiếp",
-            "content":  [
+            "content": [
               {
                 "desc": "Chọn <b>Liên kết ngân hàng để thực hiện các giao dịch</b> ở màn hình Trang chủ",
                 "image": "/assets-epay/images/lktt/lktt1.png"
@@ -837,7 +836,7 @@
               {
                 "desc": "Thanh toán thành công",
                 "image": "/assets-epay/images/ttqnhnd/ttqnhnd7.png"
-              }       
+              }
             ]
           }
         ]
@@ -874,6 +873,55 @@
               {
                 "desc": "Thanh toán thành công",
                 "image": "/assets-epay/images/ntdt/ntdt6.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "list_id": "9",
+        "title": "Thanh toán hoá đơn",
+        "item": [
+          {
+            "item_id": "1",
+            "list_id": "9",
+            "item_title": "Thanh toán hoá đơn",
+            "content": [
+              {
+                "desc": "Chọn <b>Thanh toán hóa đơn</b> tại màn hình Trang chủ",
+                "image": "/assets-epay/images/hoa_don/hoa_don_1.png"
+              },
+              {
+                "desc": "Chọn loại dịch vụ để thanh toán",
+                "image": "/assets-epay/images/hoa_don/hoa_don_2.png"
+              },
+              {
+                "desc": "User nhập/ chọn đầy đủ thông tin Nhà cung cấp, Mã khách hàng hoặc tỉnh thành (nếu có)",
+                "image": "/assets-epay/images/hoa_don/hoa_don_3.png"
+              },
+              {
+                "desc": "Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/hoa_don/hoa_don_4.png"
+              },
+              {
+                "desc": "Chọn <b>Tiếp tục</b>",
+                "image": "/assets-epay/images/hoa_don/hoa_don_5.png"
+              },
+              {
+                "desc": "Chọn hình thức thanh toán và chọn <b>Thanh toán</b>",
+                "image": "/assets-epay/images/hoa_don/hoa_don_6.png"
+              },
+              {
+                "desc": "Nhập mật khẩu Smart OTP",
+                "image": "/assets-epay/images/hoa_don/hoa_don_7.png"
+              },
+              {
+                "desc": "Chọn <b>Xác nhận</b>",
+                "image": "/assets-epay/images/hoa_don/hoa_don_8.png"
+              },
+              {
+                "desc": "Hiển thị màn hình Kết quả thanh toán",
+                "image": "/assets-epay/images/hoa_don/hoa_don_9.png"
               }
             ]
           }
